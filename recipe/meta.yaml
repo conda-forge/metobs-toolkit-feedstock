@@ -34,8 +34,8 @@ requirements:
     - setuptools >=78.1.0
     - shapely >=2.0.6
     - xarray >=2022.3.0
-    - pyarrow >=21.0.0
-    - netcdf4 >=1.7.2
+    - pyarrow >=21.0.0,<22 # The <22 constrains can be removed in >=v1.0.0 of metobs
+    - netcdf4 >=1.7.2,<2 # The <2 constrains is copied from metobs requirements
 
 test:
   imports:
