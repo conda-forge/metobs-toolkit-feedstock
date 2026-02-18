@@ -1,5 +1,5 @@
 {% set name = "MetObs-toolkit" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/metobs_toolkit-{{ version }}.tar.gz
-  sha256: 98c04e41577432fdd95fb57c2a573a0ef41b0e03aba4b78ae19114d6325c0456
+  sha256: 3a64da6c14e0e47707d8568a38f74715917966ccf932dc41506f0fa6f23f3b97
 
 build:
   noarch: python
