@@ -13,10 +13,11 @@ Current build status
 ====================
 
 
-<table><tr><td>All platforms:</td>
+<table><tr>
+    <td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=26469&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/metobs-toolkit-feedstock?branchName=main">
+      <a href="https://github.com/conda-forge/metobs-toolkit-feedstock/actions/workflows/conda-build.yml">
+        <img src="https://github.com/conda-forge/metobs-toolkit-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main">
       </a>
     </td>
   </tr>
@@ -143,6 +144,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@pratiman-91](https://github.com/pratiman-91/)
+* [@ADRIE-A3](https://github.com/ADRIE-A3/)
 * [@vergauwenthomas](https://github.com/vergauwenthomas/)
 
