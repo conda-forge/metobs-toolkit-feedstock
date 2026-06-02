@@ -1,5 +1,5 @@
 {% set name = "MetObs-toolkit" %}
-{% set version = "1.0.3" %}
+{% set version = "1.0.5" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/metobs_toolkit-{{ version }}.tar.gz
-  sha256: 2baadbc463125f4733b49df3f4ec1ce16aeefea7dbfe7f74ebf8c183be9cb209
+  sha256: 994456aba192f7a503c181839c805258cd4a1f338e01b2da7e1451d0decc5a2f
 
 build:
   noarch: python
@@ -33,7 +33,7 @@ requirements:
     - pint >=0.24.4, <1.0
     - shapely >=2.0.6, <3.0
     - xarray >=2022.3.0, <2027.0.0
-    - pyarrow >=21.0.0, <22.0.0
+    - pyarrow >=23.0.0, <24.0.0
     - netcdf4 >=1.7.2, <2.0.0
     - pytz >=2024.1, <2027.1
     - setuptools >=78.1.0
